@@ -30,22 +30,6 @@ public class GetJarVersion {
             System.out.println("GroupId : " + Version3.getGroupId());
             System.out.println("Component : " + Version3.getArtifactId());
             System.out.println("Version : " + Version3.getVersion());
-/*        Class clazz = GetJarVersion.class;
-        String className = clazz.getSimpleName() + ".class";
-        String classPath = clazz.getResource(className).toString();
-        if (!classPath.startsWith("jar")) {
-            // Class not from JAR
-            return;
-        }
-        String manifestPath = classPath.substring(0, classPath.lastIndexOf("!") + 1) + "/META-INF/MANIFEST.MF";
-        Manifest manifest = new Manifest(new URL(manifestPath).openStream());
-        Attributes attr = manifest.getMainAttributes();
-        String groupId = attr.getValue("Component-groupId");
-        String component = attr.getValue("Component-name");
-        String version = attr.getValue("Component-version");
-        System.out.println("GroupId : "+groupId);
-        System.out.println("Component : "+component);
-        System.out.println("Version : "+version);*/
         }
 
     }
