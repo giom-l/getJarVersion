@@ -1,4 +1,4 @@
-package gocho.java;
+package myself.java;
 
 
 public final class Version {
@@ -15,7 +15,7 @@ public final class Version {
     public static String getArtifactId() {
         return ARTIFACTID;
     }
-    public static String getGroupid() {
+    public static String getGroupId() {
         return GROUPID;
     }
     // other getters...

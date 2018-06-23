@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="g" />
+        <module name="getJarVersion" />
         <module name="hello-world" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="g" target="1.5" />
+      <module name="getJarVersion" target="1.5" />
       <module name="hello-world" target="1.5" />
     </bytecodeTargetLevel>
   </component>
